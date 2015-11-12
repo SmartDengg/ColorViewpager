@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/transparent"
+    >
+
+  <LinearLayout
+      android:id="@+id/splash_layout_pager_indicator_ll"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_centerInParent="true"
+      android:gravity="center"
+      android:orientation="horizontal"
+      >
+  </LinearLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentBottom="true"
+      >
+
+    <TextView
+        android:id="@+id/splash_layout_skip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="跳过"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:paddingLeft="24dp"
+        />
+
+    <TextView
+        android:id="@+id/splash_layout_done_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingRight="24dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="完成"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:visibility="gone"
+        />
+
+    <ImageButton
+        android:id="@+id/splash_layout_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingRight="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/arrow_icon"
+        android:tint="@android:color/black"
+        android:background="@android:color/transparent"
+        />
+  </RelativeLayout>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_alignParentTop="true"
+      android:background="@android:color/black"
+      />
+
+
+</RelativeLayout>
