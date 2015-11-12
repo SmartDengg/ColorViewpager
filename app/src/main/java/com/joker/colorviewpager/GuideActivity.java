@@ -148,12 +148,12 @@ public class GuideActivity extends AppCompatActivity {
 
     final Drawable indicatorNormal =
         getResources().getDrawable(R.drawable.indicator_normal_background);
-    Drawable indicatorSelected =
+    final Drawable indicatorSelected =
         getResources().getDrawable(R.drawable.indicator_selected_background);
 
     int size = getResources().getDimensionPixelSize(R.dimen.material_8dp);
 
-    this.indicatorLayout.removeAllViews();
+    indicatorLayout.removeAllViews();
     final TextView[] indicators = new TextView[ColorPagerEnum.values().length];
     for (int i = 0; i < indicators.length; i++) {
 
