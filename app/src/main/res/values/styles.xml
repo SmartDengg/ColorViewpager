@@ -8,7 +8,7 @@
     <item name="colorAccent">@color/colorAccent</item>
   </style>
 
-  <style name="AppTheme.WhiteActivity">
+  <style name="WhiteActivity" parent="Theme.AppCompat.Light.DarkActionBar">
     <item name="android:windowBackground">@android:color/white</item>
     <item name="android:windowIsTranslucent">false</item>
   </style>

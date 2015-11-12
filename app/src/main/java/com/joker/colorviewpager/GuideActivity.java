@@ -43,11 +43,11 @@ public class GuideActivity extends AppCompatActivity {
   private TextView animIndicator;
 
   int[] colors = new int[] {
-      Color.parseColor("#ffff4444"),//红
-      Color.parseColor("#ff0099cc"),//蓝
-      Color.parseColor("#ff99cc00"),//绿
-      Color.parseColor("#ffffbb33"),//橘
-      Color.parseColor("#ffDA498C")//
+      Color.parseColor("#ffff4444"),//
+      Color.parseColor("#ff0099cc"),//
+      Color.parseColor("#ff99cc00"),//
+      Color.parseColor("#ffffbb33"),//
+      Color.parseColor("#ffDA498C")
   };
 
   private ViewPager.OnPageChangeListener pageChangeListener =
